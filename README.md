@@ -3,18 +3,18 @@
 ### Install dependencies
 
 ```
-yarn 
+pnpm i
 ```
 
 ### Development
 
 ```
-yarn dev
+pnpm run dev
 ```
 
 
 ### Production
 
 ```
-yarn start
+pnpm run start
 ```
