@@ -8,7 +8,7 @@ import { Footer } from '../components/Footer';
 
 export const App = () => {
   return (
-    <BrowserRouter>
+    <>
       <GlobalStyles />
       <Menu />
       <Routes>
@@ -16,6 +16,6 @@ export const App = () => {
         <Route path="/galaxias" element={<Galaxies />} />
       </Routes>
       <Footer/>
-    </BrowserRouter>
+    </>
   )
 }
