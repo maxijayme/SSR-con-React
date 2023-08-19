@@ -1,10 +1,8 @@
 import express, {Express, Request, Response} from 'express';
 import { config } from '../server/config'
 import { render } from './render';
-render
 
 const app: Express = express();
-
 app.use(express.static('dist'))
 
 app.get('/galaxias', async (req:Request, res: Response)=>{
