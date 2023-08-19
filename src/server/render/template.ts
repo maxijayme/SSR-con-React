@@ -16,8 +16,8 @@ export const template = (html:string):string=>(
 
     <body>
     <div id="app">${html}</div>
+    <script src="app.js" type="text/javascript"></script>
     </body>
-
     </html>
     `
 )
